@@ -1,4 +1,6 @@
 import * as React from "react"
+import BlogPage from "./blog";
+
 
 // styles
 const pageStyles = {
@@ -129,6 +131,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <BlogPage />
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations
